@@ -1,49 +1,259 @@
-*{
-    padding: 0;
+* {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
-
+    font-family: Inter, Arial, sans-serif;
 }
-.header{
+
+.header {
     display: flex;
-    justify-content:space-between;
-    padding:  0 140px;
-    border: 2px solid red;
-    height: 56 px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 140px;
     border-bottom: 1px solid #f3f3f3;
 }
-.header img {
-    width: 50;
 
+.menu-icon {
+    display: flex;
+    align-items: center;
 }
-.header-right{
+
+.menu-icon svg {
+    width: 18px;
+    height: 18px;
+    stroke: #666;
+    stroke-width: 2;
+    fill: none;
+}
+
+.logo-image {
+    width: 140px;
+}
+
+.header-right {
     display: flex;
     gap: 32px;
 }
-.header-right a{
+
+.header-right a {
     text-decoration: none;
-    color:#666;
-    font-family: Arial;
-    
-}
-.hero-section{
-    text-align: center;
+    color: #666;
+    font-size: 15px;
 }
 
-.hero-section img{
-    width: 560px;
-    margin: 52px 0;
+.hero-section {
+    text-align: center;
+    margin: 80px auto;
 }
-.hero-section h1{
-    margin-bottom: 20px;
+
+.hero-section img {
+    width: 600px;
+}
+
+.hero-section h1 {
+    font-size: 44px;
+    margin-top: 40px;
     color: #424242;
 }
 
-.hero-section p{
-    margin-bottom: 30px;
-
-
+.hero-section p {
+    font-size: 20px;
+    margin: 20px 0 40px;
+    color: #666;
 }
-a{
-    border-radius: 20px;
+
+.signup-button {
+    background-color: #387ed1;
+    color: white;
+    padding: 12px 28px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.trust-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 140px;
+}
+
+.trust-left {
+    width: 45%;
+}
+
+.trust-left h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.trust-left h3 {
+    margin-top: 25px;
+}
+
+.trust-left p {
+    margin-top: 10px;
+    color: #666;
+}
+
+.trust-right img {
+    width: 520px;
+}
+
+.product-links {
+    margin-top: 20px;
+}
+
+.product-links a {
+    margin-right: 40px;
+    color: #387ed1;
+    text-decoration: none;
+}
+
+.media-section {
+    text-align: center;
+    padding: 40px;
+}
+
+.price-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 140px;
+}
+
+.pricing-right {
+    display: flex;
+    gap: 40px;
+}
+
+.right-price-section {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    max-width: 180px;
+}
+
+.right-price-section img {
+    width: 120px;
+}
+
+.right-price-section p {
+    font-size: 13px;
+    color: #666;
+}
+
+.market-education {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 140px;
+    gap: 100px;
+}
+
+.left-market-education img {
+    width: 450px;
+}
+
+.right-market-education h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.right-market-education p {
+    font-size: 18px;
+    color: #666;
+    margin: 20px 0;
+}
+
+.right-market-education a {
+    color: #387ed1;
+    text-decoration: none;
+}
+
+.open-account {
+    text-align: center;
+    padding: 80px;
+}
+
+.open-account h2 {
+    font-size: 28px;
+}
+
+.open-account p {
+    margin: 20px 0;
+    color: #666;
+}
+
+.open-account a {
+    background: #387ed1;
+    color: white;
+    padding: 12px 28px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.footer {
+    border-top: 1px solid #eee;
+    padding: 60px 140px;
+    font-size: 14px;
+}
+
+.footer-top {
+    display: flex;
+    gap: 60px;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-col h4 {
+    font-size: 16px;
+}
+
+.footer-col a {
+    color: #666;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.footer-brand img {
+    width: 140px;
+    gap:16px;
+}
+
+.social-icons {
+    margin-top: 12px;
+}
+.icon-row{
+    display: flex;
+    gap: 18px;
+}
+
+.social-icons svg {
+    width: 18px;
+    height: 18px;
+    fill: #666;
+    transition: fill 0.2s ease;
+}
+
+.social-icons a:hover svg {
+    fill: #387ed1;
+}
+
+.footer-bottom {
+    margin-top: 40px;
+    font-size: 12px;
+    color: #999;
+}
+
+.footer-bottom a{
+    margin-right: 40px;
+    color: #387ed1;
+    text-decoration: none;
+}
+.footer-bottom p{
+    margin-top: 20px;
+    margin-bottom: 24px;
+    line-height: 1.2;
+    color: #666;  
 }
